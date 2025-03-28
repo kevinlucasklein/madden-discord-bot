@@ -337,3 +337,163 @@
 [INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_receiving_20250328-105648.json
 [INFO]  Saved defense export data to data\ps5_league_10986647_reg_week_1_defense_20250328-105648.json
 [INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_defense_20250328-105648.json
+[INFO]  Handling nested export path: /export/ps5/10986647/leagueteams
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/leagueteams, RemoteAddr=192.168.1.82:51882, Content-Type=application/json
+[DEBUG] Request Query Params: map[]
+[DEBUG] Header Connection: keep-alive
+[DEBUG] Header Accept: application/json
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] Header Content-Length: 8409
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Received data of size 8409 bytes
+[DEBUG] Extracted path metadata: {ps5 10986647 leagueteams   }
+[DEBUG] JSON object keys: [leagueTeamInfoList message success]
+[DEBUG] Processing export of type: leagueteams
+[INFO]  Handling nested export path: /export/ps5/10986647/standings
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/standings, RemoteAddr=192.168.1.82:51883, Content-Type=application/json
+[DEBUG] Request Query Params: map[]
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] Header Content-Length: 27738
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Header Connection: keep-alive
+[DEBUG] Header Accept: application/json
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[DEBUG] Received data of size 27738 bytes
+[DEBUG] Extracted path metadata: {ps5 10986647 standings   }
+[DEBUG] JSON object keys: [message success teamStandingInfoList]
+[DEBUG] Processing export of type: standings
+[INFO]  Saved leagueteams export data to data\ps5_league_10986647_leagueteams_20250328-105709.json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_leagueteams_20250328-105709.json
+[INFO]  Saved standings export data to data\ps5_league_10986647_standings_20250328-105709.json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_standings_20250328-105709.json
+[INFO]  Handling nested export path: /export/ps5/10986647/week/reg/1/kicking
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/week/reg/1/kicking, RemoteAddr=192.168.1.82:51886, Content-Type=application/json
+[DEBUG] Request Query Params: map[]
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Header Connection: keep-alive
+[DEBUG] Header Accept: application/json
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] Header Content-Length: 3180
+[DEBUG] Received data of size 3180 bytes
+[INFO]  Handling nested export path: /export/ps5/10986647/week/reg/1/schedules
+[DEBUG] Extracted path metadata: {ps5 10986647 week reg 1 kicking}
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/week/reg/1/schedules, RemoteAddr=192.168.1.82:51884, Content-Type=application/json
+[DEBUG] JSON object keys: [playerKickingStatInfoList success message]
+[DEBUG] Request Query Params: map[]
+[DEBUG] Processing export of type: kicking
+[DEBUG] Header Connection: keep-alive
+[DEBUG] Header Accept: application/json
+[INFO]  Handling nested export path: /export/ps5/10986647/week/reg/1/passing
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/week/reg/1/passing, RemoteAddr=192.168.1.82:51887, Content-Type=application/json
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] Request Query Params: map[]
+[DEBUG] Header Content-Length: 2923
+[DEBUG] Header Connection: keep-alive
+[DEBUG] Header Accept: application/json
+[INFO]  Handling nested export path: /export/ps5/10986647/week/reg/1/punting
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/week/reg/1/punting, RemoteAddr=192.168.1.82:51888, Content-Type=application/json
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] Request Query Params: map[]
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Header Content-Length: 2249
+[DEBUG] Received data of size 2923 bytes
+[DEBUG] Header Connection: keep-alive
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] Extracted path metadata: {ps5 10986647 week reg 1 schedules}
+[DEBUG] Header Accept: application/json
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Received data of size 2249 bytes
+[DEBUG] JSON object keys: [gameScheduleInfoList success message]
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] Header Content-Length: 1255
+[DEBUG] Extracted path metadata: {ps5 10986647 week reg 1 passing}
+[DEBUG] Processing export of type: schedules
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] JSON object keys: [success playerPassingStatInfoList message]
+[DEBUG] Received data of size 1255 bytes
+[DEBUG] Processing export of type: passing
+[DEBUG] Extracted path metadata: {ps5 10986647 week reg 1 punting}
+[DEBUG] JSON object keys: [playerPuntingStatInfoList message success]
+[DEBUG] Processing export of type: punting
+[INFO]  Saved kicking export data to data\ps5_league_10986647_reg_week_1_kicking_20250328-105709.json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_kicking_20250328-105709.json
+[INFO]  Handling nested export path: /export/ps5/10986647/week/reg/1/defense
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/week/reg/1/defense, RemoteAddr=192.168.1.82:51885, Content-Type=application/json
+[DEBUG] Request Query Params: map[]
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Header Connection: keep-alive
+[INFO]  Handling nested export path: /export/ps5/10986647/week/reg/1/teamstats
+[DEBUG] Header Accept: application/json
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/week/reg/1/teamstats, RemoteAddr=192.168.1.82:51891, Content-Type=application/json
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] Request Query Params: map[]
+[DEBUG] Header Content-Length: 25747
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] Header Connection: keep-alive
+[DEBUG] Received data of size 25747 bytes
+[DEBUG] Header Accept: application/json
+[DEBUG] Extracted path metadata: {ps5 10986647 week reg 1 defense}
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[DEBUG] Header Accept-Language: en-US;q=1
+[INFO]  Handling nested export path: /export/ps5/10986647/week/reg/1/rushing
+[DEBUG] Header Content-Length: 5363
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/week/reg/1/rushing, RemoteAddr=192.168.1.82:51890, Content-Type=application/json
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[INFO]  Saved punting export data to data\ps5_league_10986647_reg_week_1_punting_20250328-105709.json
+[DEBUG] Request Query Params: map[]
+[INFO]  Handling nested export path: /export/ps5/10986647/week/reg/1/receiving
+[DEBUG] Header Content-Type: application/json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_punting_20250328-105709.json
+[DEBUG] JSON object keys: [playerDefensiveStatInfoList message success]
+[INFO]  Saved schedules export data to data\ps5_league_10986647_reg_week_1_schedules_20250328-105709.json
+[DEBUG] Header Connection: keep-alive
+[INFO]  Received request: Method=POST, URL=/export/ps5/10986647/week/reg/1/receiving, RemoteAddr=192.168.1.82:51889, Content-Type=application/json
+[DEBUG] Received data of size 5363 bytes
+[INFO]  Saved passing export data to data\ps5_league_10986647_reg_week_1_passing_20250328-105709.json
+[DEBUG] Processing export of type: defense
+[INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_schedules_20250328-105709.json
+[DEBUG] Header Accept: application/json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_passing_20250328-105709.json
+[DEBUG] Request Query Params: map[]
+[DEBUG] Extracted path metadata: {ps5 10986647 week reg 1 teamstats}
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[DEBUG] Header Content-Length: 12040
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] JSON object keys: [success message teamStatInfoList]
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] Header Content-Length: 7706
+[DEBUG] Processing export of type: teamstats
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Header Accept-Encoding: gzip, deflate
+[DEBUG] Header Connection: keep-alive
+[DEBUG] Header Content-Type: application/json
+[DEBUG] Header Accept: application/json
+[DEBUG] Received data of size 7706 bytes
+[DEBUG] Header User-Agent: Madden25Companion/25.0.3 (iPhone; iOS 18.4; Scale/3.00)
+[DEBUG] Extracted path metadata: {ps5 10986647 week reg 1 rushing}
+[DEBUG] Header Accept-Language: en-US;q=1
+[DEBUG] Received data of size 12040 bytes
+[DEBUG] JSON object keys: [message playerRushingStatInfoList success]
+[DEBUG] Extracted path metadata: {ps5 10986647 week reg 1 receiving}
+[DEBUG] Processing export of type: rushing
+[DEBUG] JSON object keys: [message playerReceivingStatInfoList success]
+[DEBUG] Processing export of type: receiving
+[INFO]  Saved teamstats export data to data\ps5_league_10986647_reg_week_1_teamstats_20250328-105709.json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_teamstats_20250328-105709.json
+[INFO]  Saved rushing export data to data\ps5_league_10986647_reg_week_1_rushing_20250328-105709.json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_rushing_20250328-105709.json
+[INFO]  Saved defense export data to data\ps5_league_10986647_reg_week_1_defense_20250328-105709.json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_defense_20250328-105709.json
+[INFO]  Saved receiving export data to data\ps5_league_10986647_reg_week_1_receiving_20250328-105709.json
+[INFO]  Successfully processed export data to data\ps5_league_10986647_reg_week_1_receiving_20250328-105709.json
