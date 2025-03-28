@@ -1,0 +1,30 @@
+# Binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+madden-bot
+madden-discord-bot
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Data directory
+data/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db 
